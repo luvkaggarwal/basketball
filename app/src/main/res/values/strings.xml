@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">basketball</string>
+
+    <string name="threePoints">+3 POINTS</string>
+    <string name="twoPoints">+2 POINTS</string>
+    <string name="freeThrow">FREE THROW</string>
+    <string name="teamA">TEAM A</string>
+    <string name="teamB">TEAM B</string>
+    <string name="score">0</string>
+    <string name="endGame">END GAME</string>
+    <string name="start">START</string>
+    <string name="playGame">PLAY GAME</string>
+    <string name="intro">ENTER TEAM NAMES</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="trophy">trophy</string>
+    <string name="congrats">CONGRATULATIONS</string>
+    <string name="playAgain">Play Again</string>
+    <string name="logo">logo</string>
+    <string name="action_settings">Settings</string>
+</resources>

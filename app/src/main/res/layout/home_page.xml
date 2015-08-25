@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/teamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:text="@string/teamB"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/teamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/teamB"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:text="@string/teamA"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/playGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teamB"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:onClick="startGame"
+        android:padding="25dp"
+        android:text="@string/playGame"
+        android:textSize="26sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/teamA"
+        android:layout_centerInParent="true"
+        android:padding="25dp"
+        android:onClick="teamNames"
+        android:text="@string/intro"
+        android:textSize="26sp" />
+
+</RelativeLayout>
